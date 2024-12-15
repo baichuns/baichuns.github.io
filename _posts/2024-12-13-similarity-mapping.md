@@ -4,7 +4,6 @@ date: 2024-09-20 00:00:00 +0800
 tags: [similarity, mapping, positive samples]
 ---
 
-# Introduction
 
 Positive-Unlabeled Learning (PUL) can be though of as one of similarity mapping method, and is designed to address situations where a dataset includes only a small number of labeled positive samples, with the rest remaining unlabeled. The foundation of PUL can be traced back to seminal works such as Elkan and Noto's study in 2008, Mordelet and Vert's bagging-based method in 2013, and Hsieh, Niu, and Sugiyama's classification approach for positive-unlabeled and biased negative data.
 
@@ -13,7 +12,6 @@ Undoubtedly, PUL falls within the category of supervised learning and has garner
 Here a novel method for more stable estimation of unlabeled positivity and an integrated workflow to enhance classification confidence. This approach involves an iterative learning process, where a new classifier is trained using labeled data while continuously re-sampling the unlabeled samples.
 
 
-# Description
 
 Classification from positive and unlabeled (PU) data is a variation of standard classification, where the training dataset includes both positive and unlabeled examples. The key assumption is that each unlabeled example could belong to either the positive or negative class. For a detailed review of various PU learning methods, refer to J. Kristen's work from 2019. The figure below highlights how PU learning differs from standard classification.
 
