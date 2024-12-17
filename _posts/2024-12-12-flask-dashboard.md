@@ -1,6 +1,7 @@
 ---
 title: "Geoscience app demo using flask and voila"
 date: 2024-11-11 00:00:00 +0800
+categories: dashboard
 tags: [dashboard, flask, voila]
 ---
 

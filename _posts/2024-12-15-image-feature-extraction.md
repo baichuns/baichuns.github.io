@@ -1,6 +1,7 @@
 ---
 title: "Image edge and texture feature detection"
 date: 2024-07-15 00:00:00 +0800
+categories: feature_extraction
 tags: [edge detection, canny, sato filter, phase congruence, phase symmetry]
 ---
 

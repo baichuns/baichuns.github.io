@@ -1,6 +1,7 @@
 ---
 title: "Similarity Mapping with Limited Positive Samples"
 date: 2024-09-20 00:00:00 +0800
+categories: similarity_mapping
 tags: [similarity, mapping, positive samples]
 ---
 
