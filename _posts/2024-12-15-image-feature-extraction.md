@@ -1,7 +1,9 @@
 ---
-title: "Image edge and texture feature detection"
+title: "Comparison of different methods for spatial texture feature detection"
+
 date: 2024-07-15 00:00:00 +0800
 categories: feature_extraction
+published: True
 tags: [edge detection, canny, sato filter, phase congruence, phase symmetry]
 ---
 
@@ -19,16 +21,16 @@ In the field of image processing and computer vision, feature extraction is a cr
 
 - Sato Filter: A technique designed to enhance the detection of edges and textures in images, particularly useful in remote sensing applications. The Sato filter operates by applying a combination of directional filtering and statistical analysis to improve the visibility of features that may be obscured by noise or other artifacts.
 
-Lineament features are linear features that can represent geological structures, roads, or other linear patterns in an image. Extracting lineament features often involves:
+Lineament features are important features that can represent geological structures, roads, or other linear patterns in an spatial image. This kinds of features extraction often involves some common techniques:
 
 - Hough Transform: A technique that detects lines in an image by transforming points in the image space to a parameter space, allowing for the identification of straight lines.
 
 - Directional Filtering: Applying filters that enhance specific orientations can help in detecting linear features by emphasizing their directionality.
 
-- Morphological Operations: Techniques such as dilation and erosion can be used to enhance and extract line-like structures from binary images.
+- Morphological Operations: Techniques such as dilation and erosion can be used as an integral part of workflow to enhance and extract line-like structures from binary images.
 
 
-In this post, I compare the feature extraction results from Sato filter, Canny edge detection, phase congruency and symmetry. 
+In this post, I compare the feature extraction results from Sato filter, Canny edge detection, phase congruency and symmetry in a broad sense. 
 
 - Sato Filter: This technique is particularly effective in enhancing the detection of edges and textures in images, especially in remote sensing applications. The Sato filter employs a combination of directional filtering and statistical analysis, which allows it to improve the visibility of features that may be obscured by noise or other artifacts. Its strength lies in its ability to adapt to various orientations, making it suitable for detecting complex patterns in images.
 
@@ -39,10 +41,7 @@ In this post, I compare the feature extraction results from Sato filter, Canny e
 - Phase Symmetry: Complementing phase congruency, phase symmetry focuses on the symmetry of the phase information in an image. It identifies regions where the phase of the frequency components exhibits a symmetrical pattern, which often corresponds to the presence of edges or other significant structures. Phase symmetry can be particularly useful for detecting features that are not easily captured by traditional edge detection methods, as it emphasizes the underlying structure rather than just intensity changes.
 
 
-
-In summary, for the Sato filter and Canny edge detection serving the purpose of edge detection, the Sato filter excels in enhancing features in noisy environments, whereas the Canny edge detector is preferred for its accuracy and reliability in defining edges. The choice between the two methods ultimately depends on the specific requirements of the image processing task at hand.
-
-
+In short, for the use of Sato filter and Canny edge detection serving the purpose of edge detection, the Sato filter might excel in enhancing features in noisy environments, whereas the Canny edge detector is preferred for its accuracy and reliability in defining edges. The choice between the two methods ultimately depends on the specific requirements of the image processing task at hand.
 
 More notes about sato filter, the size of the filter object in the Sato filter has a significant impact on the performance and results of edge and texture detection in images. Here is one key effect of filter object size:
 
@@ -51,7 +50,7 @@ Smaller Filter Sizes: These are more sensitive to fine details and can detect sm
 Larger Filter Sizes: These can capture broader features and are generally more robust against noise. However, they may overlook finer details and lead to a loss of important information.
 
 
-Here is an image example illustrating the results obtained from a few methods for extracting texture features.
+Here is an image example illustrating the results obtained from a few methods for extracting texture features. Notably, the locations of extracted features are not exactly colocated, and this difference is understood due to the the fundamental difference in their algorithms.
 ![image example](img/img_2extract.png)
 
 

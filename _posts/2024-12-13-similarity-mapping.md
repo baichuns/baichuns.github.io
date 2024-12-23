@@ -2,6 +2,7 @@
 title: "Similarity Mapping with Limited Positive Samples"
 date: 2024-09-20 00:00:00 +0800
 categories: similarity_mapping
+published: False
 tags: [similarity, mapping, positive samples]
 ---
 
@@ -10,8 +11,7 @@ Positive-Unlabeled Learning (PUL) can be though of as one of similarity mapping 
 
 Undoubtedly, PUL falls within the category of supervised learning and has garnered significant attention in machine learning research in recent years. This interest is largely driven by the prevalence of datasets dominated by unlabeled data, such as those encountered in malware detection and disease identification through medical imaging.
 
-Here a novel method for more stable estimation of unlabeled positivity and an integrated workflow to enhance classification confidence. This approach involves an iterative learning process, where a new classifier is trained using labeled data while continuously re-sampling the unlabeled samples.
-
+Here is a method for more stable estimation of unlabeled positivity and an integrated workflow to enhance classification confidence. This approach involves an iterative learning process, where a new classifier is trained using labeled data while continuously re-sampling the unlabeled samples.
 
 
 Classification from positive and unlabeled (PU) data is a variation of standard classification, where the training dataset includes both positive and unlabeled examples. The key assumption is that each unlabeled example could belong to either the positive or negative class. For a detailed review of various PU learning methods, refer to J. Kristen's work from 2019. The figure below highlights how PU learning differs from standard classification.
@@ -30,9 +30,9 @@ While various classification methods, such as Random Forest and XGBoost, can the
 ![PUL standard classifier](gif/pul2.png)
 
 
-# Results
+# Example
 
-Here, we demonstrate the application of this algorithm to synthetic data using three toy datasets from scikit-learn. These datasets are used to compare the performance of different clustering algorithms.
+Here, I demonstrate the application of this algorithm to synthetic data using toy datasets from scikit-learn. These datasets are used to compare the performance of different clustering algorithms.
 
 ![toy datasets](gif/pul3.png)
 

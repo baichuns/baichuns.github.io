@@ -16,7 +16,7 @@ timezone: Australia/Perth
 
 title: bc # the main title
 
-tagline: blog pages # it will display as the subtitle
+tagline: side project space # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   My technical resource produced for data science and machine learning.

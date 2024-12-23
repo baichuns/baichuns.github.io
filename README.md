@@ -1,9 +1,13 @@
-# Chirpy Starter
+# My Blog
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+Knowledge based blog!
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
+
+
+<!-- [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp; -->
+<!-- [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit] -->
+
+<!-- When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
 `_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
 from the theme's gem. If you have ever installed this theme gem, you can use the command
 `bundle info --path jekyll-theme-chirpy` to locate these files.
@@ -40,4 +44,4 @@ This work is published under [MIT][mit] License.
 [gem]: https://rubygems.org/gems/jekyll-theme-chirpy
 [chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
 [CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE -->
