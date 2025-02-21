@@ -13,12 +13,12 @@ Tracking company announcements on the **Australian Stock Exchange (ASX)** can pr
 ## **The Challenge: Downloading Announcement PDFs**  
 While the idea of a fully automated AI agent sounds great, there’s a **major roadblock**—extracting announcement PDFs directly from the ASX website.  
 
-### **Why is this difficult?**  
+### **Challenges**  
 - **🔄 Redirects & Validation:** PDF links on the ASX site **redirect** users to another page, often requiring additional interactions before downloading.  
 - **🔐 Identity Verification:** Some downloads may require authentication, making it **hard to automate** through traditional web scraping techniques.  
 - **📜 Dynamic Web Elements:** The announcement page is structured in a way that complicates **direct link extraction** for automated scripts.  
 
-## **The Practical Solution: A Hybrid Approach**  
+## **A Hybrid Approach**  
 Instead of building a **fully automated** AI agent, a **semi-automated workflow** works best:  
 
 1. **📥 Manually download** the announcements you’re interested in and store them in a local folder.  
