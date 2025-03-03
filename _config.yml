@@ -190,7 +190,8 @@ defaults:
       permalink: /:title/
 
 sass:
-  style: compressed
+  # style: compressed
+  custom: "assets/css/custom.css"
 
 compress_html:
   clippings: all
